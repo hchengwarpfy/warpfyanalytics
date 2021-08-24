@@ -35,4 +35,5 @@ if __name__ == "__main__":
     create_table(data['user'], data['password'], data['host'], data['port'], data['database'], queries['asin_category_query'])
     create_table(data['user'], data['password'], data['host'], data['port'], data['database'], queries['asin_product_page_query'])
     create_table(data['user'], data['password'], data['host'], data['port'], data['database'], queries['master_keywords_market_query'])
+    create_table(data['user'], data['password'], data['host'], data['port'], data['database'], queries['master_keywords_query_search_info'])
     
